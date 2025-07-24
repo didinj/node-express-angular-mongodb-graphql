@@ -1,22 +1,26 @@
 {
-  "name": "node-graphql",
-  "version": "0.0.0",
-  "private": true,
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
   "dependencies": {
-    "bluebird": "^3.5.3",
-    "cookie-parser": "~1.4.3",
+    "@apollo/server": "^5.0.0",
+    "@as-integrations/express5": "^1.1.2",
+    "body-parser": "^2.2.0",
     "cors": "^2.8.5",
-    "debug": "~2.6.9",
-    "express": "^4.16.4",
-    "express-graphql": "^0.7.1",
-    "graphql": "^14.1.1",
-    "graphql-date": "^1.0.3",
-    "http-errors": "~1.6.2",
-    "jade": "~1.11.0",
-    "mongoose": "^5.4.15",
-    "morgan": "~1.9.0"
+    "express": "^5.1.0",
+    "graphql": "^16.11.0",
+    "graphql-tag": "^2.12.6",
+    "mongoose": "^8.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }

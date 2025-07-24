@@ -1,3 +1,3 @@
-# Node, Express, Angular 7, GraphQL and MongoDB CRUD Web App
+# Build a Modern CRUD Web App with Angular 20, Node.js, Express, GraphQL, and MongoDB
 
-This source codes is part of [Node, Express, Angular 7, GraphQL and MongoDB CRUD Web App](https://www.djamware.com/post/5c75d68880aca754f7a9d1ed/node-express-angular-7-graphql-and-mongodb-crud-web-app) tutorial.
+Read the full tutorial [here]().

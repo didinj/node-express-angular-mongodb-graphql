@@ -1,0 +1,30 @@
+<h2>📚 Book List</h2>
+
+<a routerLink="/add-book">➕ Add New Book</a>
+
+<ul>
+  <li *ngFor="let book of books">
+    <strong>{{ book.title }}</strong> by {{ book.author }} ({{
+      book.pages
+    }}
+    pages)
+    <button (click)="deleteBook(book.id)">❌ Delete</button>
+  </li>
+</ul>
+
+<h3>Add New Book</h3>
+<form (ngSubmit)="addBook()">
+  <label
+    >Title:
+    <input type="text" [(ngModel)]="title" name="title" required /> </label
+  ><br />
+  <label
+    >Author:
+    <input type="text" [(ngModel)]="author" name="author" required /> </label
+  ><br />
+  <label
+    >Pages:
+    <input type="number" [(ngModel)]="pages" name="pages" required /> </label
+  ><br />
+  <button type="submit">➕ Add Book</button>
+</form>
